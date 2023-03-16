@@ -11,7 +11,7 @@
   <Project>https://github.com/friendlyFriend4000/prometheus-immich-exporter</Project>
   <Overview>A simple prometheus exporter for immich to display its metrics in grafana</Overview>
   <Category>Tools:</Category>
-  <WebUI>http://[IP]:[PORT=8028]</WebUI>
+  <WebUI>http://[IP]:[PORT:8028]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/friendlyFriend4000/prometheus-immich-exporter/blob/master/unraid/icon.png?raw=true</Icon>
   <ExtraParams/>
