@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/friendlyFriend4000/prometheus-immich-exporter/issues</Support>
+  <Support>https://forums.unraid.net/topic/136486-support-friendlyfriend-application-dockers/</Support>
   <Project>https://github.com/friendlyFriend4000/prometheus-immich-exporter</Project>
   <Overview>A simple prometheus exporter for immich to display its metrics in grafana</Overview>
   <Category>Tools:</Category>
