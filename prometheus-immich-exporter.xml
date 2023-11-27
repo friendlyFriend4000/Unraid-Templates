@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>prometheus-immich-exporter</Name>
   <Repository>friendlyfriend/prometheus-immich-exporter:latest</Repository>
-  <Registry>https://hub.docker.com/repository/docker/friendlyfriend/prometheus-immich-exporter</Registry>
+  <Registry>https://hub.docker.com/repository/docker/friendlyfriend/prometheus-immich-exporter/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
