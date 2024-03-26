@@ -13,7 +13,7 @@
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/friendlyFriend4000/prometheus-immich-exporter/blob/master/unraid/icon.png?raw=true</Icon>
+  <Icon>https://github.com/friendlyFriend4000/prometheus-immich-exporter/blob/master/unraid/immich-logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
