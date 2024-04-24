@@ -15,6 +15,7 @@ To allow more than one connection other than locahost:&#xD;
 2. type  vi config.yaml to edit the config file&#xD;
 3. press insert and add your IP to the whitelist&#xD;
 4. press esc then type :wq&#xD;
+5. restart the container&#xD;
 &#xD;
 </Overview>
   <Category>Other:</Category>
