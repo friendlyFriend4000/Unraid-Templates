@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>SillyTavern</Name>
+  <Repository>ghcr.io/sillytavern/sillytavern:staging</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/SillyTavern/SillyTavern/issues</Support>
+  <Project>https://github.com/SillyTavern</Project>
+  <Overview>Anything but localhost is blocked by default&#xD;
+To allow more than one connection other than locahost:&#xD;
+1. rightclick on SillyTavern and open console (not unraid console)&#xD;
+2. type  vi config.yaml to edit the config file&#xD;
+3. press insert and add your IP to the whitelist&#xD;
+4. press esc then type :wq&#xD;
+&#xD;
+</Overview>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://avatars.githubusercontent.com/u/134869877?s=200&amp;amp;v=4</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1713918697</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="port" Target="8000" Default="7598" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">7598</Config>
+</Container>
