@@ -30,4 +30,7 @@ To allow more than one connection other than locahost:&#xD;
   <DonateLink/>
   <Requires/>
   <Config Name="port" Target="8000" Default="7598" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">7598</Config>
+  <Config Name="Config:" Target="/home/node/app/config" Default="/mnt/user/appdata/STConfig/Config" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/STConfig/Config</Config>
+  <Config Name="Plugins:" Target="/plugins" Default="/mnt/user/appdata/STConfig/Plugins" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/STConfig/Plugins</Config>
+  <Config Name="Data:" Target="/home/node/app/data" Default="/mnt/user/appdata/STConfig/Data" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/STConfig/Data</Config>
 </Container>
