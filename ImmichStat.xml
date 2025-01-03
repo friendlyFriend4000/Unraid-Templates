@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ImmichStat</Name>
+  <Repository>friendlyfriend/immichstat:latest</Repository>
+  <Registry>https://hub.docker.com/repository/docker/friendlyfriend</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/friendlyFriend4000/ImmichStat/issues</Support>
+  <Project>https://github.com/friendlyFriend4000/ImmichStat/</Project>
+  <Overview>project is in active development&#xD;
+Extensive statistics tracker of your self hosted immich instance. &#xD;
+&#xD;
+</Overview>
+  <Category>Other: Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>8675</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1735884404</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="webui" Target="3000" Default="8675" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8675</Config>
+  <Config Name="ENV VAR IMMICH_URL" Target="IMMICH_URL" Default="https://immich.example.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">https://immich.example.com</Config>
+  <Config Name="EN VAR IMMICH_API_KEY" Target="IMMICH_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
