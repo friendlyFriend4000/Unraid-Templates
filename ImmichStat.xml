@@ -12,17 +12,18 @@
   <Overview>project is in active development&#xD;
 Extensive statistics tracker of your self hosted immich instance.</Overview>
   <Category>Other:</Category>
-  <WebUI>http://[IP]:[PORT:8675]</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/friendlyFriend4000/Unraid-Templates/master/ImmichStat.xml</TemplateURL>
-  <Icon>https://github.com/friendlyFriend4000/ImmichStat/blob/main/immichlogotemp.png</Icon>
+  <Icon>https://github.com/friendlyFriend4000/ImmichStat/blob/main/immichlogotemp.png?raw=1</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1735943470</DateInstalled>
+  <DateInstalled>1736480831</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="webui" Target="3000" Default="8675" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8675</Config>
   <Config Name="ENV VAR IMMICH_URL" Target="IMMICH_URL" Default="https://immich.example.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">https://immich.tkto.org</Config>
-  <Config Name="EN VAR IMMICH_API_KEY" Target="IMMICH_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">kgnxVTupNpPO1F9j8sPcwiM0eQnSWkxOmgGXlUFoqaU</Config>
+  <Config Name="ENV VAR IMMICH_API_KEY" Target="IMMICH_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">kgnxVTupNpPO1F9j8sPcwiM0eQnSWkxOmgGXlUFoqaU</Config>
+  <Config Name="ENV VAR DATABASE_URL:" Target="DATABASE_URL" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">postgresql://DBusername:DBpassword@[IP]:[PORT]/DBdatabaseName</Config>
 </Container>
