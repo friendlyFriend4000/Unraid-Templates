@@ -12,12 +12,25 @@
   <Overview>project is in active development&#xD;
 Extensive statistics tracker of your self hosted immich instance.</Overview>
   <Category>Other:</Category>
+  <ExtraSearchTerms>immich stats tracker statistics media</ExtraSearchTerms>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/friendlyFriend4000/Unraid-Templates/master/ImmichStat.xml</TemplateURL>
   <Icon>https://github.com/friendlyFriend4000/ImmichStat/blob/main/immichlogotemp.png?raw=1</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
+  <Maintainer>
+      <WebPage>https://github.com/friendlyFriend4000</WebPage>
+  </Maintainer>
+  <Changes>
+      ### 2025-01-12
+      BREAKING CHANGES
+      mind the new ENV database_url
+
+      fix - size indicators
+      fix - hover text box
+    
+  </Changes>
   <DateInstalled>1736483031</DateInstalled>
   <DonateText/>
   <DonateLink/>
