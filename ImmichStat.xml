@@ -24,6 +24,7 @@ Extensive statistics tracker of your self hosted immich instance.</Overview>
   </Maintainer>
   <Changes>
       ### 2025-01-12
+      v0.2.3
       BREAKING CHANGES
       mind the new ENV database_url
 
