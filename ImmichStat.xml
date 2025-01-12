@@ -28,8 +28,9 @@ Extensive statistics tracker of your self hosted immich instance.</Overview>
       BREAKING CHANGES
       mind the new ENV database_url
 
-      fix - size indicators
+      fix - usage shows proper disk size
       fix - hover text box
+      fix - indicator placement
     
   </Changes>
   <DateInstalled>1736483031</DateInstalled>
