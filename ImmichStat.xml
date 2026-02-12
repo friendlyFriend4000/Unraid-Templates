@@ -24,8 +24,8 @@ Extensive statistics tracker of your self hosted immich instance.</Overview>
   </Maintainer>
   <Changes>
       ### 2026-02-11
-      v1.0.0 
-      bunch of new features
+      >v1.0.0 
+      >IMMICH_URL needs to end with /api to work
       ### 2025-01-12
       v0.2.3
       BREAKING CHANGES
