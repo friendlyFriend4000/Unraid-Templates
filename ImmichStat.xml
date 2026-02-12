@@ -23,6 +23,9 @@ Extensive statistics tracker of your self hosted immich instance.</Overview>
       <WebPage>https://github.com/friendlyFriend4000</WebPage>
   </Maintainer>
   <Changes>
+      ### 2026-02-11
+      v1.0.0 
+      bunch of new features
       ### 2025-01-12
       v0.2.3
       BREAKING CHANGES
