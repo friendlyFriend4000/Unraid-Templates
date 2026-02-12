@@ -41,7 +41,7 @@ Extensive statistics tracker of your self hosted immich instance.</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="webui" Target="3000" Default="8675" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8675</Config>
-  <Config Name="ENV VAR IMMICH_URL" Target="IMMICH_URL" Default="https://immich.example.com" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">https://immich.tkto.org</Config>
+  <Config Name="ENV VAR IMMICH_URL" Target="IMMICH_URL" Default="https://immich.example.com/api" Mode="" Description="http:192.123.123.2:2283/api" Type="Variable" Display="always" Required="true" Mask="false">https://immich.tkto.org</Config>
   <Config Name="ENV VAR IMMICH_API_KEY" Target="IMMICH_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">kgnxVTupNpPO1F9j8sPcwiM0eQnSWkxOmgGXlUFoqaU</Config>
   <Config Name="ENV VAR DATABASE_URL" Target="DATABASE_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">postgresql://DBusername:DBpassword@[IP]:[PORT]/DBdatabaseName</Config>
 </Container>
